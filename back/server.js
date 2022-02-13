@@ -15,7 +15,7 @@ const normalizePort = val => {
 };
 
 // Si le port de connexion n'est pas déclaré par l'environnement, écouter sur le port 3000
-const port = normalizePort(process.env.PORT || '4000');
+const port = normalizePort(process.env.PORT || '4010');
 app.set('port', port);
 
 //Pour gérer les différentes erreurs grâce à errorHandler
